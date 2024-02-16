@@ -27,7 +27,7 @@ We welcome contributions! If you have ideas for new lessons, activities, or impr
 
 Follow us on social media to stay updated on new lessons, activities, and more!
 
-- YouTube: [MiniMindsEducation](https://www.youtube.com/MiniMindsEducation)
+- YouTube: [MiniMindsEducation](https://www.youtube.com/channel/UCgc--O05TeqSyHoxDgtMkOQ)
 - Twitter: [@MiniMindsEdu](https://twitter.com/MiniMindsEdu)
 
 Let's make learning an exciting journey for our MiniMinds!
