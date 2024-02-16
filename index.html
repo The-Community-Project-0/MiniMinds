@@ -42,16 +42,19 @@
             <p>MiniMinds is an exciting educational project designed for kids to learn and explore in a playful environment. Our mission is to make learning enjoyable and engaging for young minds.</p>
         </section>
 
-        <section>
+        <section class="get-started">
             <h2>Get Started</h2>
-            <ol>
-                <li><a href="#" onclick="loadLessonPage('Kindergarten')">Explore Kindergarten Lessons</a></li>
-                <li><a href="#" onclick="loadLessonPage('1st Grade')">Explore 1st Grade Lessons</a></li>
-                <!-- Add similar links for other grade levels -->
-                <li>Explore our interactive lessons.</li>
-                <li>Try out the fun activities related to each lesson.</li>
-                <li>Encourage creativity with our imaginative challenges.</li>
-            </ol>
+            <div class="card-container">
+                <div class="card active-card" onclick="loadLessonPage('Kindergarten')">
+                    <h3>Explore Kindergarten Lessons</h3>
+                    <p>Engage with fun and interactive lessons tailored for young learners.</p>
+                </div>
+                <div class="card" onclick="loadLessonPage('1st Grade')">
+                    <h3>Discover 1st Grade Lessons</h3>
+                    <p>Start your educational journey with exciting lessons and activities.</p>
+                </div>
+                <!-- Add similar cards for other grade levels -->
+            </div>
         </section>
     </main>
 
