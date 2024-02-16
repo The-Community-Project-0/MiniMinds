@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MiniMinds - Learning is Fun!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
@@ -11,6 +13,28 @@
         <h1>Welcome to MiniMinds</h1>
         <p>Where Learning is Fun!</p>
     </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <div class="dropdown">
+            <button class="dropbtn">Grade Levels
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Kindergarten</a>
+                <a href="#">1st Grade</a>
+                <a href="#">2nd Grade</a>
+                <!-- Add more grade levels as needed -->
+            </div>
+        </div>
+        <div class="search-container">
+            <form action="/search">
+                <input type="text" placeholder="Search..." name="search" class="search-bar">
+                <button type="submit" class="search-button"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </nav>
 
     <main>
         <section>
@@ -30,9 +54,11 @@
 
     <footer>
         <p>Follow us on social media to stay updated!</p>
-        <ul>
-            <li><a href="https://www.youtube.com/MiniMindsEducation">YouTube</a></li>
-            <li><a href="https://twitter.com/MiniMindsEdu">Twitter</a></li>
+        <ul class="social-links">
+            <!-- Replace the existing YouTube link with your channel link and add the YouTube icon -->
+            <li><a href="https://www.youtube.com/channel/UCgc--O05TeqSyHoxDgtMkOQ" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a></li>
+            <!-- Replace the existing Twitter link with your Twitter link and add the Twitter icon -->
+            <li><a href="https://twitter.com/MiniMindsEdu" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
         </ul>
     </footer>
 
