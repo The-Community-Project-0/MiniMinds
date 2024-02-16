@@ -1,4 +1,5 @@
 // script.js
+
 document.addEventListener("DOMContentLoaded", function () {
     // Add JavaScript code here
     var dropdown = document.getElementById("gradeDropdown");
@@ -21,4 +22,16 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         }
     };
+
+    // Function to load the lessons page based on grade level
+    function loadLessonPage(gradeLevel) {
+        // Fetch the corresponding lesson HTML content
+        fetch(`${gradeLevel.toLowerCase()}_lesson.html`)
+            .then(response => response.text())
+            .then(html => {
+                // Replace the current HTML with the lessons page
+                document.documentElement.innerHTML = html;
+            })
+            .catch(error => console.error(`Error loading ${gradeLevel} lesson page:`, error));
+    }
 });
