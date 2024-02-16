@@ -1,3 +1,4 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,15 +23,9 @@
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-                <a href="#">Kindergarten</a>
-                <a href="#">1st Grade</a>
-                <a href="#">2nd Grade</a>
-                <a href="#">3rd Grade</a>
-                <a href="#">4th Grade</a>
-                <a href="#">5th Grade</a>
-                <a href="#">6th Grade</a>
-                <a href="#">7th Grade</a>
-                <a href="#">8th Grade</a>
+                <a href="#" onclick="loadLessonPage('Kindergarten')">Kindergarten</a>
+                <a href="#" onclick="loadLessonPage('1st Grade')">1st Grade</a>
+                <!-- Add similar links for other grade levels -->
             </div>
         </div>
         <div class="search-container">
@@ -50,6 +45,9 @@
         <section>
             <h2>Get Started</h2>
             <ol>
+                <li><a href="#" onclick="loadLessonPage('Kindergarten')">Explore Kindergarten Lessons</a></li>
+                <li><a href="#" onclick="loadLessonPage('1st Grade')">Explore 1st Grade Lessons</a></li>
+                <!-- Add similar links for other grade levels -->
                 <li>Explore our interactive lessons.</li>
                 <li>Try out the fun activities related to each lesson.</li>
                 <li>Encourage creativity with our imaginative challenges.</li>
