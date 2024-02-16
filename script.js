@@ -1,7 +1,14 @@
 // script.js
-
 document.addEventListener("DOMContentLoaded", function () {
-    // Add JavaScript code here
+    var cards = document.querySelectorAll('.card');
+
+    cards.forEach(card => {
+        card.addEventListener('click', function() {
+            var gradeLevel = this.dataset.gradeLevel;
+            loadLessonPage(gradeLevel);
+        });
+    });
+
     var dropdown = document.getElementById("gradeDropdown");
 
     dropdown.addEventListener("click", function () {
