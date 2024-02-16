@@ -1,0 +1,81 @@
+<!-- k_lesson.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniMinds - Kindergarten Lesson 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>Kindergarten Lesson 1 - Shape Drawing with Scratch</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <div class="dropdown" id="gradeDropdown">
+            <button class="dropbtn">Grade Levels
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#" onclick="loadLessonPage('Kindergarten')">Kindergarten</a>
+                <a href="#" onclick="loadLessonPage('1st Grade')">1st Grade</a>
+                <!-- Add similar links for other grade levels -->
+            </div>
+        </div>
+        <div class="search-container">
+            <form action="/search">
+                <input type="text" placeholder="Search..." name="search" class="search-bar">
+                <button type="submit" class="search-button"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Welcome to Kindergarten Lesson 1!</h2>
+            <p>In this lesson, we will explore the world of shapes and learn how to draw them using Scratch.</p>
+        </section>
+
+        <section>
+            <h2>Lesson Objectives</h2>
+            <ul>
+                <li>Introduce basic shapes: circle, square, triangle.</li>
+                <li>Learn how to use Scratch to draw these shapes.</li>
+                <li>Encourage creativity by experimenting with colors.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Getting Started with Scratch</h2>
+            <p>Follow the steps below to start drawing shapes on Scratch:</p>
+            <ol>
+                <li>Open the Scratch project for this lesson below:</li>
+            </ol>
+            <!-- Embed Scratch project using an iframe -->
+            <iframe src="https://scratch.mit.edu/projects/967297145/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        </section>
+
+        <section>
+            <h2>Your Challenge</h2>
+            <p>Now that you've learned the basics, your challenge is to create a fun drawing using the shapes you've learned. Be creative and have fun!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Follow us on social media to stay updated!</p>
+        <ul class="social-links">
+            <li><a href="https://www.youtube.com/channel/UCgc--O05TeqSyHoxDgtMkOQ" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://twitter.com/MiniMindsEdu" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+
+        <p>&copy; 2024 MiniMinds. All rights reserved. | COPPA Compliant</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
